@@ -1,0 +1,7 @@
+dependencies: \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native/React/Base/RCTJSStackFrame.m \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native/React/Base/RCTJSStackFrame.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native/React/Base/RCTUtils.h
