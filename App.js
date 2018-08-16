@@ -15,10 +15,12 @@ import {
 class App extends Component {
   placeAddedHandler = placeName => {
     this.props.onAddPlace(placeName);
+
   };
 
   placeDeletedHandler = () => {
     this.props.onDeletePlace();
+    console.log("hello world")
   };
 
   modalClosedHandler = () => {
