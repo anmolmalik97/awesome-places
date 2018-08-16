@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCManagerModule.m \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCManagerModule.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCManager.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCNavigationController.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCViewController.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerController.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCDrawerController/MMDrawerController/MMDrawerController.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerProtocol.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCLightBox.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCTabBarController.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCDrawerController/RCCTheSideBarManagerViewController.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/TheSidebarController.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/Animations/SidebarAnimation.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RCCNotification.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/Helpers/RCTHelpers.h \
+  /Users/anmolmalik/Desktop/awesome_places/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/anmolmalik/Desktop/awesome_places/node_modules/react-native-navigation/ios/RNNSwizzles.h
