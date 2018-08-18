@@ -1,6 +1,11 @@
 import React,{ Component} from 'react';
-import {View,Text,Button,TextInput,StyleSheet} from 'react-native';
+import {View,Text,Button,TextInput,StyleSheet,ImageBackground} from 'react-native';
 import startMainTabs from '../MainTabs/startMainTabs';
+import DefaultInput from '../../components/UI/DefaultInput/DefaultInput';
+import HeadingText from '../../components/UI/HeadingText/HeadingText';
+import MainText from '../../components/UI/MainText/MainText';
+import ButtonWithBackground from '../../components/UI/ButtonWithBackground/ButtonWithBackground';
+import backgroundImage from '../../assets/background.jpg';
 
 
 class AuthScreen extends Component {
@@ -11,16 +16,20 @@ class AuthScreen extends Component {
 
 	render(){
 		return (
-				<View style = {styles.container}>
-					<Text>Please Log In</Text>
-					 <View style = {styles.inputContainer}>
-					 	<TextInput placeholder = "your E-mail" style = {styles.input}/>
-						<TextInput placeholder = "Password" style = {styles.input}/>
-						<TextInput placeholder = "Confirm Password" style = {styles.input}/>
-					 </View>
-					<Button title = "Switch to Login"/>
-					<Button title = "Submit" onPress={this.loginHandler}/>
-				</View>
+				<ImageBackground source={backgroundImage} style={styles.backgroundImage}>
+					<View style = {styles.container}>
+						<MainText>
+							<HeadingText>Please Log In</HeadingText>
+						</MainText>
+						<ButtonWithBackground color="#29aaf4">Switch To Login</ButtonWithBackground>
+						 <View style = {styles.inputContainer}>
+						 	<DefaultInput placeholder="Your E-mail" style={styles.input}/>
+						 	<DefaultInput placeholder="Password" style={styles.input}/>
+						 	<DefaultInput placeholder="Confirm Password" style={styles.input}/>
+					 	</View>
+						<ButtonWithBackground color="#29aaf4" onPress={this.loginHandler}>Submit</ButtonWithBackground>
+					</View>
+				</ImageBackground>
 			);
 	}
 }
@@ -35,7 +44,12 @@ const styles = StyleSheet.create({
 		width: "80%"
 	},
 	input: {
-		width: "100%"
+		borderColor: "#bbb",
+		backgroundColor: "#eee"
+	},
+	backgroundImage: {
+		width: "100%",
+		flex: 1
 	}
 })
 
