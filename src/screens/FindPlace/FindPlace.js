@@ -1,5 +1,5 @@
 import React,{Component} from  'react';
-import {View,Text,TouchableOpacity,StyleSheet} from  'react-native';
+import {View,Text,TouchableOpacity,Animated,StyleSheet} from  'react-native';
 import {connect} from  'react-redux';
 
 import PlaceList from '../../components/PlaceList/PlaceList'
@@ -11,7 +11,8 @@ class FindPlace extends Component {
 	}
 
 	state = {
-		placeLoaded: false
+		placeLoaded: false,
+		removeAnim: new Animated.Value(1)
 	}
 
 	constructor(props){
@@ -40,23 +41,38 @@ class FindPlace extends Component {
 			passProps: {
 				selectedPlace: selPlace 
 			}
-		});
+		}).start();
 	};
 
 	placesSearchHandler = () => {
-		this.setState({
-			placeLoaded: true
-		})
+		Animated.timing(this.state.removeAnim,{
+			toValue: 0,
+			duration: 500,
+			useNativeDriver: true
+		}).start()
 	}
 
 	render(){
 		
 		let content = (
-				<TouchableOpacity onPress = {this.placesSearchHandler}>
-					<View style = {styles.searchButton}>
-						<Text style = {styles.searchButtonText}>Find Places</Text>
-					</View>
-				</TouchableOpacity>
+				<Animated.View 
+					style = {{
+						opacity: this.state.removeAnim,
+						transform: [
+							{
+								scale: this.state.removeAnim.interpolate({
+									inputRange: [0,1],
+									outputRange: [12,1]
+								})
+							}
+						]
+					}}>
+					<TouchableOpacity onPress = {this.placesSearchHandler}>
+						<View style = {styles.searchButton}>
+							<Text style = {styles.searchButtonText}>Find Places</Text>
+						</View>
+					</TouchableOpacity>
+				</Animated.View>
 			);
 
 		if(this.state.placeLoaded) {
