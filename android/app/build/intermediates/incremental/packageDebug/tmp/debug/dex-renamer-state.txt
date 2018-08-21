@@ -1,4 +1,4 @@
-#Thu Aug 16 18:16:16 IST 2018
+#Sun Aug 19 18:55:51 IST 2018
 base.0=/Users/anmolmalik/Desktop/awesome_places/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 path.0=classes.dex
