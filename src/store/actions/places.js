@@ -5,15 +5,26 @@ export const addPlace = (placeName,location,image) => dispatch => {
         placeName: placeName,
         location: location,
     }
-    fetch("https://awesome-places-1534668478672.firebaseio.com/places.json",{
+    fetch("https://us-central1-awesome-places-1534668478672.cloudfunctions.net/storeImage",{
         method: "POST",
-        body: JSON.stringify(placeData)
+        body: JSON.stringify({
+            image: image.base64
+        })
     })
     .catch(err => console.log(err))
     .then(res => res.json())
     .then(parsedRes => {
-        console.log(parsedRes);
+        console.log(parsedRes)
     })
+    // fetch("https://awesome-places-1534668478672.firebaseio.com/places.json",{
+    //     method: "POST",
+    //     body: JSON.stringify(placeData)
+    // })
+    // .catch(err => console.log(err))
+    // .then(res => res.json())
+    // .then(parsedRes => {
+    //     console.log(parsedRes);
+    // })
 }
 
 export const deletePlace = key => {
