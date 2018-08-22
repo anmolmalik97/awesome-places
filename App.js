@@ -16,11 +16,11 @@ Navigation.registerComponent("awesome-places.AuthScreen",() => AuthScreen,store,
 Navigation.registerComponent("awesome-places.SharePlaceScreen",() => SharePlaceScreen,store,Provider);
 Navigation.registerComponent("awesome-places.FindPlaceScreen",() => FindPlaceScreen,store,Provider);
 Navigation.registerComponent("awesome-places.PlaceDetailScreen",() => PlaceDetailScreen,store,Provider);
-Navigation.registerComponent("awesome-places.SideDrawer",() => SideDrawer);
+Navigation.registerComponent("awesome-places.SideDrawer",() => SideDrawer,store,Provider);
 
 // start app
 
-Navigation.startSingleScreenApp({
+export default () => Navigation.startSingleScreenApp({
   screen: {
     screen: "awesome-places.AuthScreen",
     title: "Login"
